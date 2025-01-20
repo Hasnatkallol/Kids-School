@@ -83,6 +83,7 @@
         font-weight: 500;
         color: rgba(17, 17, 17, 1);
         margin: 30px 0;
+        width: 100%;
     }
     header .banner .banner-text .enroll{
         width: 197px;
