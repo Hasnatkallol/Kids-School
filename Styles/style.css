@@ -313,3 +313,9 @@ padding: 0;
 .curriculum .left-right .fa-solid:hover{
     background-color:rgb(161, 105, 9) ;
 }
+.another{
+    max-width: 1160px;
+    height: 575px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
