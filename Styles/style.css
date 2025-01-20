@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 /* Shared code */
 * {
     margin: 0;
@@ -33,6 +33,10 @@ h1,h2,h3,h4,h5,h6, p,a {
 }
 
 /* Header part */
+header{
+    height: auto;
+ 
+}
 header .navbar{
     max-width: 1160px;
     height: 100px;
@@ -40,6 +44,7 @@ header .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 hr{
     color: rgba(254, 163, 1, 1);
@@ -98,45 +103,49 @@ header .navbar .btn-contact:hover{
 }
 
 /* Start Banner Part */
-header .banner{
+.banner{
+    max-width: 1160px;
+    height: 575px;
+    margin: 20px auto;
+}
+.banner{
     max-width: 1160px;
     height: 575px;
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
- 
 }
-header .banner .banner-text{
+.banner .banner-text{
     height: 575px;
 
 
 }
 
-.banner .banner-text {
+.banner-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-header .banner .banner-text .title{
+.banner .banner-text .title{
     font-family: "Quicksand", serif;
     font-size: 3.5rem;
     font-weight: bold;
     color: rgba(17, 17, 17, 1);
 }
-header .banner .banner-text .title .first{
+.banner .banner-text .title .first{
     font-family: "Quicksand", serif;
     font-size: 3.5rem;
     font-weight: bold;
     color: rgba(254, 163, 1, 1);
 }
-header .banner .banner-text .title .third{
+.banner .banner-text .title .third{
     font-family: "Quicksand", serif;
     font-size: 3.5rem;
     font-weight: bold;
     color: rgba(1, 172, 253, 1);
 }
 
-header .banner .banner-text .description{
+.banner .banner-text .description{
     font-family: "Quicksand", serif;
     font-size: 1.25rem;
     font-weight: 400;
@@ -146,7 +155,7 @@ header .banner .banner-text .description{
     height: 50px;
   
 }
-header .banner .banner-text .enroll{
+.banner .banner-text .enroll{
     width: 197px;
     height: 50px;
     background-color:rgba(17, 17, 17, 1);
@@ -158,14 +167,149 @@ header .banner .banner-text .enroll{
     color: white;
     border: none;
 }
-header .banner .banner-text .enroll:hover{
+.banner .banner-text .enroll:hover{
     background-color:rgb(59, 57, 57);
 }
 header .banner .banner-img{
     height: 575px;
  
 }
-header .banner .banner-img img{
+.banner .banner-img img{
 width: 100%;
 height: 100%;
+} 
+
+/* Main part */
+
+
+/* Standard curriculuam */
+
+.curriculum{
+    width: 100%;
+    height: 1100px; 
+    background-image: url("../assets/bg.png");
+    margin-bottom: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F7F7F7;
+    margin-top: 10px;
+}
+.curriculum .container .title{
+    font-family: "Quicksand", serif;
+    font-size: 2.87rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 90px 0;
+    color: rgba(0, 0, 0, 1);
+}
+.curriculum .container .cards {  
+        max-width: 1160px;
+        height: 620px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+}
+.curriculum .container .cards .card{  
+    width: 320px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.curriculum .container .cards .card .img{  
+width: 140px;
+height: 140px;
+margin: 0;
+padding: 0;
+}
+.curriculum .container .cards .card .title{
+    font-family: "Quicksand", serif;
+    font-size: 1.54rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    padding: 0;
+}
+.curriculum .container .cards .card .description{
+    font-family: "Raleway", serif;
+    font-size: 0.94rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 50px;
+}
+.curriculum .container .cards .card .read{
+    font-family: "Quicksand", serif;
+    font-size: 0.94rem;
+    font-weight: bold;
+}
+.curriculum .container .cards .first{
+    border: 1px solid rgba(212, 235, 244, 0.8);
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(234, 249, 255, 0.8) 20%, rgba(255, 255, 255, 0.9) 40%, white 100%); 
+    box-shadow: 0 0 28px 0.94 rgba(0, 0, 0, 0.05);
+}
+.curriculum .container .cards .second{
+    border: 1px solid rgb(248, 232, 193);
+    border-radius: 12px;
+    background: linear-gradient(180deg,  rgba(248, 232, 187, 0.4) 20%, rgba(255, 255, 255, 0.9) 40%, white 100%); 
+    box-shadow: 0 0 28px 0.94 rgba(0, 0, 0, 0.05);
+    
+}
+.curriculum .container .cards .third{
+    border: 1px solid rgba(227, 210, 243, 0.4);;
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(227, 210, 243, 0.4) 20%, rgba(255, 255, 255, 0.9) 40%, white 100%); 
+    box-shadow: 0 0 28px 0.94 rgba(0, 0, 0, 0.05);
+}
+.curriculum .container .cards .card  .blue{
+    color: rgba(100, 200, 255, 1);
+}
+.curriculum .container .cards .card  .yellow{
+    color: rgba(240, 170, 0, 1);
+}
+.curriculum .container .cards .card  .beguni{
+    color:rgba(135, 0, 255, 1);
+}
+.curriculum .container .cards .card  .blue:hover{
+    color: rgb(48, 163, 225);
+}
+.curriculum .container .cards .card  .yellow:hover{
+    color: rgb(191, 135, 4);
+}
+.curriculum .container .cards .card  .beguni:hover{
+    color:rgb(161, 72, 239);
+}
+.curriculum .left-right{
+    max-width: 1160px;
+   height: 100px;
+   border: 2px solid blue;
+   margin: 50px auto;
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   text-align: center;
+   align-content: center;
+   align-self: center;
+  
+}
+.curriculum .left-right .fa-solid{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    background-color:rgba(254, 163, 1, 1) ;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    font-size: 25px;
+}
+.curriculum .left-right .fa-solid:hover{
+    background-color:rgb(161, 105, 9) ;
 }
