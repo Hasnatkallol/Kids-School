@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* Shared code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+h1,h2,h3,h4,h5,h6, p,a {
+    margin: 0;
+    padding: 0;
+  }
+.btn{
+    width: 197px;
+    height: 50px;
+    background-color: rgba(254, 163, 1, 1);
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 10px 60px;
+    border-radius: 12px;
+    color: white;
+    border: none;
+}
+
+/* Header part */
+header .navbar{
+    max-width: 1160px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    color: rgba(254, 163, 1, 1);
+    display: none;
+}
+/* start navigation part */
+header .navbar .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+header .navbar .logo img{
+    width: 62px;
+    height: 62px;
+}
+header .navber .logo .nav-name{
+    font-family: "Quicksand", serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(17, 17, 17, 1);
+}
+header .navbar .item ul{
+    display: flex;
+}
+header .navbar .item ul li{
+ margin: 0 20px;
+}
+header .navbar .item ul li .link{
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+header .navbar .item ul li .home{
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgba(254, 163, 1, 1); 
+}
+header .navbar .item ul li .about{
+    color:rgba(1, 172, 253, 1);
+}
+header .navbar .item ul li .facilities{
+    color:rgba(5, 212, 223, 1);
+}
+header .navbar .item ul li .admission{
+    color:rgba(93, 88, 239, 1);
+}
+header .navbar .btn-contact:hover{
+    background-color: rgb(213, 136, 3);
+}
+#menu{
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
+/* Start Banner Part */
+header .banner{
+    max-width: 1160px;
+    height: 575px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+header .banner .banner-text{
+    height: 575px;
+
+
+}
+
+.banner .banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header .banner .banner-text .title{
+    font-family: "Quicksand", serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(17, 17, 17, 1);
+}
+header .banner .banner-text .title .first{
+    font-family: "Quicksand", serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(254, 163, 1, 1);
+}
+header .banner .banner-text .title .third{
+    font-family: "Quicksand", serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(1, 172, 253, 1);
+}
+
+header .banner .banner-text .description{
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(17, 17, 17, 1);
+    margin: 30px 0;
+}
+header .banner .banner-text .enroll{
+    width: 197px;
+    height: 50px;
+    background-color:rgba(17, 17, 17, 1);
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 12px;
+    color: white;
+    border: none;
+}
+header .banner .banner-text .enroll:hover{
+    background-color:rgb(59, 57, 57);
+}
+header .banner .banner-img{
+    height: 575px;
+ 
+}
+header .banner .banner-img img{
+width: 100%;
+height: 100%;
+}
