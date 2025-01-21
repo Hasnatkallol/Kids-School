@@ -34,8 +34,9 @@ h1,h2,h3,h4,h5,h6, p,a {
 
 /* Header part */
 header{
+  
     height: auto;
- 
+    /* margin-bottom: 2px solid rgba(254, 163, 1, 1); */
 }
 header .navbar{
     max-width: 1160px;
