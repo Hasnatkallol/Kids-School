@@ -186,6 +186,160 @@ display: none;
 } 
 
 /* stories part */
+.stories{
+    margin: 0 auto;
+}
+.stories .container {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    align-self: center;
+    display: flex;
+ 
+    text-align: center;
+    align-content: center;
+}
+.stories .container .main{
+  display: none;
+}
+.stories .container .secondary{
+    width: 100%;
+    height: auto;
+    margin: 50px auto 0 auto;
+}
+.stories .container .secondary .card1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px; 
+}
+
+.stories .container .secondary #box-hidden{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px; 
+}
+
+
+
+.stories .container .secondary .card2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.stories .container .secondary .card1 .box{
+    width: 170px;
+    height: 175px; 
+}
+.stories .container .secondary .card2 .box{
+    width: 170px;
+    height: 175px;
+}
+.stories .container .secondary .card1 .box1{
+    margin-right: 10px;
+   }
+   .stories .container .secondary .card2 .box3{
+       margin-right: 10px;
+   }
+.stories .container .secondary .card1 .box img{  
+    width: 170px;
+    height: 105px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+    z-index: -1;
+    position: relative;
+}
+.stories .container .secondary .card1 .box fieldset{
+    width: 171px;
+    height: 102px;
+    margin: -30px 0 0px 0;
+    padding-left: 0px; 
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.stories .container .secondary .card1 .box fieldset h1{
+    font-family: "Quicksand", serif; 
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: #000000; 
+    text-align: justify;
+    line-height: 15px;
+    margin: 25px 0 35px 30px;
+}
+
+.stories .container .secondary .card1 .box fieldset legend{
+    width: 104px;
+    height: 38px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", serif;
+    font-size: 0.5rem;
+    font-weight: 500;
+    border: none;
+    margin-left: -5px;
+    padding: 10px 10px;
+    border-radius: 47px;
+    background-color:rgba(149, 178, 38, 1);
+    color: white;
+    z-index: 1;
+}
+
+
+.stories .container .secondary .card2 .box img{  
+    width: 170px;
+    height: 105px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+    z-index: -1;
+    position: relative;
+}
+.stories .container .secondary .card2 .box fieldset{
+    width: 171px;
+    height: 102px;
+    margin: -30px 0 0px 0;
+    padding-left: 0px; 
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.stories .container .secondary .card2 .box fieldset h1{
+    font-family: "Quicksand", serif; 
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: #000000; 
+    text-align: justify;
+    line-height: 15px;
+    margin: 25px 0 35px 30px;
+}
+
+.stories .container .secondary .card2 .box fieldset legend{
+    width: 104px;
+    height: 38px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", serif;
+    font-size: 0.5rem;
+    font-weight: 500;
+    border: none;
+    margin-left: -5px;
+    padding: 10px 10px;
+    border-radius: 47px;
+    background-color:rgba(149, 178, 38, 1);
+    color: white;
+    z-index: 1;
+}
+#box-hidden{
+    display: block;
+}
+
+
+
+
 
 
 /* footer part */
