@@ -762,6 +762,11 @@ border-radius: 16px 16px 0 0;
 .stories .viewall:hover{
     background-color:rgb(59, 57, 57);
 }
+
+.move{
+    font-size: 50px;
+    margin-top: 20px;
+}
   /* Footer part */
   .footer{
     width: 100%;
