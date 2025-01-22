@@ -212,7 +212,7 @@ height: 100%;
           
     ),url("../assets/bg.png")
     ; */
-    filter: blur(0.001px);
+    /* filter: blur(0.001px); */
     margin-top: 10px;
     padding-top: 0px;
 }
@@ -358,7 +358,7 @@ padding: 0;
           
     ),url("../assets/bg.png")
     ;
-    filter: blur(0.001px);
+    /* filter: blur(0.001px); */
     margin-top: 0px;
     padding-top: 0px;
     
