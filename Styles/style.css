@@ -203,16 +203,6 @@ height: 100%;
     background-repeat: repeat-y;
     background-size:auto 80%;
     background-color: #F7F7F7;
-    /* background: 
-    linear-gradient(
-        to top,
-            rgba(254, 163, 1, 0.5) 10%, 
-          rgba(240,233,223,0.6) 50%,
-         rgba(247,247,247,0.1) 100% 
-          
-    ),url("../assets/bg.png")
-    ; */
-    /* filter: blur(0.001px); */
     margin-top: 10px;
     padding-top: 0px;
 }
